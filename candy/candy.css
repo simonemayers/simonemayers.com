@@ -60,6 +60,6 @@ body {
     margin-bottom: 100px;
 } 
 
-.col-lg-6 {
+.col-lg-6, .col-md-6, #mainNavbar {
     padding-right:0; 
 }
