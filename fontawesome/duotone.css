@@ -25,13 +25,14 @@ h1, h2 {
     background-color: #1C7CD6; 
     color: #FFF; 
     text-decoration: none; 
-    padding: 1rem 1.8rem; 
     font-weight: 600;
-    font-size:1rem; 
+    font-size:1.2rem; 
     margin-top: 1.875rem;
+    padding: 16px 24px;
     border: 1px solid #1C7CD6;
-    border-radius: 4px;
-    max-height: 4rem; 
+    border-radius: 0.25rem;
+    height: 80%; 
+    width: 63% ;
 }
 
 .container a, .container a:visited {
