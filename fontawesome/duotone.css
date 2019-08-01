@@ -36,6 +36,7 @@ div #button {
     min-width: 198px;
     display: inline-flex; 
     float:left;
+    vertical-align:top; 
 }
 
 .container a, .container a:visited {
