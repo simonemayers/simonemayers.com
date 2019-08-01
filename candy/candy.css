@@ -49,7 +49,7 @@ body {
     font-size: 4rem; 
 }
 
-@media (max-width:100%) {
+@media (max-width:1200px) {
     #headingGroup h1 {
         font-weight: 100; 
         font-size: 2rem;
