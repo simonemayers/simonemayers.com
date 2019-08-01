@@ -1,5 +1,5 @@
 html {
-    font-size: 14px; 
+    font-size: 16px; 
 }
 
 body {
@@ -25,7 +25,7 @@ h1, h2 {
     background-color: #1C7CD6; 
     color: #FFF; 
     text-decoration: none; 
-    padding: 1rem 1.5rem; 
+    padding: 1rem 1.8rem; 
     font-weight: 600;
     font-size:1rem; 
     margin-top: 1.875rem;
@@ -33,10 +33,6 @@ h1, h2 {
     border-radius: 4px;
     max-height: 4rem; 
 }
-
-/* #button {
-    width: 50em; 
-} */
 
 .container a, .container a:visited {
     color: #329AF0;
@@ -91,7 +87,7 @@ h1 {
 
 p {
     line-height: 1.5rem; 
-    margin-bottom: 1.25rem; 
+    margin-bottom: 1.5rem; 
     margin-top: 0;
 }
 
