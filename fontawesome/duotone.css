@@ -1,3 +1,7 @@
+html {
+    font-size: 16px; 
+}
+
 body {
     background-color: #F8F9FA; 
     text-align: center;
@@ -23,7 +27,7 @@ h1, h2 {
     text-decoration: none; 
     padding: 1rem 1.5rem; 
     font-weight: 600;
-    font-size:1.25rem; 
+    font-size:1rem; 
     margin-top: 1.875rem;
     border: 1px solid #1C7CD6;
     border-radius: 4px;
