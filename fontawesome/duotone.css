@@ -42,6 +42,8 @@ h1, h2 {
 .footer {
     box-sizing: border-box;
     margin: auto;
+    max-width: 800px;
+    width: auto;
     padding: 40px;    
     font-size: 14px; 
 }
@@ -56,6 +58,8 @@ h1, h2 {
     background-color: #FFF; 
     box-sizing: border-box;
     margin: auto;
+    max-width: 800px; 
+    width: auto;
     padding: 40px;     
     text-align: left; 
 }
