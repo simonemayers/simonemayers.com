@@ -63,7 +63,7 @@ h1, h2 {
     margin: auto;
     max-width: 800px; 
     width: auto;
-    padding: 2.5rem 2.5rem 5rem 2.5rem; 
+    padding: 2.5rem 2.5rem 4rem 2.5rem; 
     text-align: left; 
 }
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 .header {
-    padding: 50px 15px 25px 15px;
+    padding: 50px 15px 50px 15px;
 }
 
 p {
