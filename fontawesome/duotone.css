@@ -34,8 +34,8 @@ div #button {
     max-height: 60px;
     max-width: 275px; 
     min-width: 198px;
-    display: inline-block;
-    text
+    display: inline-flex; 
+    float:left;
 }
 
 .container a, .container a:visited {
