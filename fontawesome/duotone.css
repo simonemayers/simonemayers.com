@@ -33,6 +33,7 @@ h1, h2 {
     border-radius: 0.25rem;
     height: 80%; 
     width: 63% ;
+    min-width: 198px; 
 }
 
 .container a, .container a:visited {
