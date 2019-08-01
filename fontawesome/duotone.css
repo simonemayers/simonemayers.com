@@ -10,7 +10,7 @@ body {
 
 div{
     margin: auto;
-    padding: 40px 0;
+    padding: 2.5rem 0;
 }
 
 h1, h2 {
@@ -21,14 +21,14 @@ h1, h2 {
     background-color: #1C7CD6; 
     color: #FFF; 
     text-decoration: none; 
-    padding: 16px 24px; 
+    padding: 1rem 1.5rem; 
     font-weight: 600;
-    font-size:1.25em; 
-    margin-top: 30px;
+    font-size:1.25rem; 
+    margin-top: 1.875rem;
     border: 1px solid #1C7CD6;
     border-radius: 4px;
-    width: 325px; 
-    max-height: 64px; 
+    width: 12rem; 
+    max-height: 4rem; 
 }
 
 .container a, .container a:visited {
@@ -45,7 +45,7 @@ h1, h2 {
     max-width: 800px;
     width: auto;
     padding: 40px;    
-    font-size: 0.875em; 
+    font-size: 0.875rem; 
 }
 
 .footer img {
