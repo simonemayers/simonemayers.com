@@ -44,7 +44,7 @@ h1, h2 {
     margin: auto;
     max-width: 800px;
     width: auto;
-    padding: 40px;    
+    padding: 2.5rem;    
     font-size: 0.875rem; 
 }
 
@@ -60,7 +60,7 @@ h1, h2 {
     margin: auto;
     max-width: 800px; 
     width: auto;
-    padding: 40px;     
+    padding: 2.5rem;     
     text-align: left; 
 }
 
@@ -72,10 +72,10 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 1.4rem; 
+    font-size: 1.8rem; 
     line-height: 2rem;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .header {
@@ -84,7 +84,7 @@ h1 {
 
 p {
     line-height: 1.5rem; 
-    margin-bottom: 20px; 
+    margin-bottom: 1.25rem; 
     margin-top: 0;
 }
 
