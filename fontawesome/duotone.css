@@ -17,9 +17,9 @@ h1, h2 {
     color: #495057; 
 }
 
-div #button {
+/* div #button {
     padding: 0; 
-}
+} */
 
 #button a, #button a:visited {
     background-color: #1C7CD6; 
