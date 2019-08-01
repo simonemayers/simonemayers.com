@@ -17,10 +17,6 @@ h1, h2 {
     color: #495057; 
 }
 
-/* div #button {
-    padding: 0; 
-} */
-
 #button a, #button a:visited {
     background-color: #1C7CD6; 
     color: #FFF; 
@@ -35,7 +31,6 @@ h1, h2 {
     max-width: 275px; 
     min-width: 198px;
     display: inline-flex; 
-    float:left;
     vertical-align:top; 
 }
 
