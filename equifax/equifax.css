@@ -5,6 +5,7 @@ body {
     margin: 0px auto; 
     font-size: 17px; 
     color: #525050; 
+    width: 100%; 
 }
 
 .container {
@@ -12,6 +13,7 @@ body {
     max-width: 700px; 
     min-width:430px; 
     box-sizing: border-box; 
+    width:100%; 
 }
 
 .header img {
