@@ -43,6 +43,7 @@ body {
 #mainNavbar .navbar-brand {
     color: #ea1c2c; 
     font-size: 1.5rem;
+    margin: 0% 1rem; 
 
 }
 
@@ -60,12 +61,11 @@ body {
         font-size: 2rem;
 }
 
-
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
 } 
 
 .col-lg-6, .col-md-6, #mainNavbar {
-    padding-right:0; 
+    padding:0; 
 }
