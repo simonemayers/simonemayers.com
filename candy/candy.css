@@ -1,3 +1,8 @@
+.row {
+    max-width: 100%; 
+    margin: 0%; 
+}
+
 .blurb p {
     color: #f498b8; 
     font-weight: 100; 
