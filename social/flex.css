@@ -21,66 +21,6 @@ body {
     justify-content: flex-start; 
 }
 
-#jumbotron-container {
-    background-color: #09bf95; 
-    width: 100%; 
-    color: #FFF;  
-}
-
-#jumbotron-container a, #jumbotron-container a:visited {
-    color: #FFF; 
-}
-
-#jumbotron {
-    display: flex; 
-    flex-flow: column nowrap; 
-    max-width: 70vw; 
-    height: 50vw; 
-    align-items: center; 
-    justify-content: center; 
-    margin: 0 auto; 
-}
-
-#welcome {
-    display: flex; 
-    /* flex-flow: row nowrap;  */
-    font-size: 3rem; 
-    align-items: center; 
-}
-
-#welcome h1 {
-    display: flex; 
-    flex: 1 1 0%; 
-}
-
-#jumbotron hr {
-    width: 80%; 
-    margin-bottom: 2%; 
-}
-
-.button {
-    background-color: #06a983; 
-    display: flex; 
-    font-size: 1.3rem;
-    border-radius: 2rem; 
-}
-
-.button h2 {
-    flex: 1 1 auto; 
-}
-
-.button a, .button a:visited {
-    display: flex; 
-    flex: 1 1 0%; 
-    padding: 1rem 5rem; 
-    text-decoration: none; 
-    border-radius: 2rem; 
-}
-
-.button a:hover {
-    background-color: rgb(219, 28, 28); 
-}
-
 #navbar-container {
     width: 100%; 
     max-height: 10vh; 
@@ -126,6 +66,10 @@ body {
     align-items: center; 
 }
 
+#nav-items {
+    flex-flow: row wrap; 
+}
+
 #navbar a, #navbar a:visited {
     color: #EEE;
     text-decoration: none; 
@@ -143,6 +87,86 @@ body {
 
 .nav-item i {
     padding-right: 5%; 
+}
+
+#jumbotron-container {
+    background-color: #09bf95; 
+    color: #FFF;  
+    max-width: 100%; 
+    /* margin-top: 1%; 
+    min-width: 615px;
+    max-width: 80vw;
+    max-height: 90vh;
+    height: 85vh; */
+    display: flex; 
+    flex: 1 1 0%;
+    /* margin: auto;  */
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+#jumbotron-container a, #jumbotron-container a:visited {
+    color: #FFF; 
+}
+
+#jumbotron {
+    display: flex; 
+    flex-flow: column nowrap; 
+    max-width: 70vw; 
+    height: 50vw; 
+    align-items: center; 
+    justify-content: center; 
+    /* margin: 0 auto;  */
+}
+
+#welcome h1, #jumbotron {
+    flex: 1 1 0%; 
+    display: flex;
+    justify-content: center; 
+    text-align: center; 
+}
+
+#welcome {
+    /* display: flex;  */
+    /* flex-flow: row nowrap;  */
+    font-size: 3rem; 
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+}
+
+#welcome h1 {
+    display: flex; 
+    flex: 1 1 0%; 
+}
+
+#jumbotron hr {
+    width: 80%; 
+    margin-bottom: 2%; 
+}
+
+.button {
+    background-color: #06a983; 
+    display: flex; 
+    font-size: 1.3rem;
+    border-radius: 2rem; 
+}
+
+.button h2 {
+    flex: 1 1 auto; 
+}
+
+.button a, .button a:visited {
+    display: flex; 
+    flex: 1 1 0%; 
+    padding: 1rem 5rem; 
+    text-decoration: none; 
+    border-radius: 2rem; 
+}
+
+.button a:hover {
+    background-color: rgb(219, 28, 28); 
 }
 
 #chat-container {
