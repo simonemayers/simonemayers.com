@@ -118,7 +118,7 @@ function user () {
 
 setTimeout(function() {
     alert("Game Rules: First one to get to get to 100 points wins! If you roll a 1 on either die all your current points will be lost and your turn is over. Press HOLD to add your current score to your total and end your turn. You can also change the default winning score by selecting your own number at the bottom of the game. You can customize your player  name by entering it at the top of the game. Goodluck!"); 
-}, 500);  
+}, 1000);  
 
 
 
