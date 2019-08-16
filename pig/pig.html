@@ -5,6 +5,7 @@
         <link type="text/css" rel="stylesheet" href="pig.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/8f2f01b48f.js"></script> 
         
         <title>The Pig Game by Simone Mayers</title>
     </head>
@@ -39,7 +40,26 @@
             
             <input class="playerInput" id="playerInput0" type="text" placeholder="Enter Player Name">
             <input class="playerInput" id="playerInput1" type="text" placeholder="Enter Player Name">
+        </div>
 
+        <div class="wrapper clearfix starter">
+            <div class="rules">
+                <h1>
+                    Welcome to the Pig Game!
+                </h1>
+                <div id="icon">
+                    <i class="fas fa-dice"></i>
+                </div>
+                <h2>
+                    Game Rules
+                </h2>
+                <p>
+                    First one to get to get to 100 points wins! If you roll a 1 on either die all your current points will be lost and your turn is over. Press HOLD to add your current score to your total and end your turn. You can also change the default winning score by selecting your own number at the bottom of the game. You can customize your player  name by entering it at the top of the game. Goodluck!
+                </p>
+                <button class="btn-start"> 
+                    Start
+                </button>
+            </div>
         </div>
         
         <script src="pig.js"></script>
