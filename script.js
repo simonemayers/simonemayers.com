@@ -8,7 +8,7 @@ function changePicture() {
             if(currentImage != imageArr[6]) {
                 currentImage =  imageArr[next]; 
             } else {
-                currentImage = imageArr[next]; 
+                currentImage = imageArr[0]; 
             }
     }
 }; 
