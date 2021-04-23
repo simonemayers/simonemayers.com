@@ -446,3 +446,34 @@ body {
     flex: 1 0 0%; 
 }
 
+#home-nav-container {
+    padding: 0.4%;
+    /* background-color: rgb(255, 210, 40);  */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#home-nav {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.home a:visited, .home a{
+    /* height: 40px;  */
+    background: #FFF;
+    border-radius: 100%;
+    color: #06a983;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex; 
+    flex: 0 0 40px; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.home a:hover{
+    font-size: 2.1rem;
+    
+}
